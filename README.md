@@ -5,7 +5,8 @@ This is made possible by using the **pyperclip** module which can be installed u
 ``` pip install pyperclip ```
 ## Usage
 To try out this program, clone the repository:
-``` ```
+``` git clone https://github.com/Sheila-nk/Multi-Clipboard_Automatic_Messages.git ```
+
 You can use the already preset messages contained in the table below or update the dictionary with your own messages:
 | **Phrase** | **Message** |
 |-------------- | -------------- |
@@ -16,7 +17,10 @@ You can use the already preset messages contained in the table below or update t
 | review | Please review my pull request. I have provided the link below. |
 | merge | Thank you for reviewing and merging my pull request. |
 | agree | Yes, I agree. That sounds fine to me. |
+
 To run the script on your terminal:
 ```python clipboard.py <phrase> ```
+
 This command copies the message to the clipboard which can then be pasted anywhere else.
+
 **TO-DO**:  *The batch file does not work as expected to allow for output when run on Windows with the WIN-R Run window*
